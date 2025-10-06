@@ -59,7 +59,6 @@ export const Header = ({ scrollToSection }: HeaderProps) => {
                         </li>
                     ))}
 
-                    {/* Selector de idioma */}
                     <li>
                         <select
                             value={lang}

@@ -22,8 +22,6 @@ export const App = () => {
   return (
     <>
       <Header scrollToSection={scrollToSection} />
-
-      {/* Parallax solo para Hero */}
       <Parallax ref={parallax} pages={1}>
         <ParallaxLayer
           offset={0}
@@ -39,8 +37,6 @@ export const App = () => {
       </Parallax>
 
       <div style={{ height: "100vh" }} />
-
-      {/* Secciones normales */}
       <About />
       <TechStack />
       <Experience />
