@@ -1,0 +1,96 @@
+{
+  "header": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "techStack": "Stack Tecnológico",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy Alejandro",
+    "description": "Ingeniero de Software de Jerez de la Frontera.",
+    "knowMe": "Conóceme",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "paragraphs": [
+      "Hola, soy Alejandro Segovia, graduado en Ingeniería Informática por la Universidad de Cádiz. Llevo desde 2018 trabajando como desarrollador de software, especializándome en el desarrollo frontend.",
+      "He trabajado en proyectos muy variados, desde pequeñas webs para PYMES hasta sistemas internacionales en sectores como banca, logística y e-commerce. Cada proyecto me ha permitido aprender y adaptarme rápidamente a nuevas tecnologías y retos.",
+      "Me considero una persona curiosa y activa: me encanta debatir sobre qué soluciones son mejores y por qué, compartir ideas con compañeros, siento que compartir conocimiento es la mejor forma de aprender.",
+      "Disfruto enfrentándome a retos que aún no he abordado. Creo que es en lo desconocido donde más se aprende y donde se puede marcar la diferencia."
+    ]
+  },
+  "techStack": {
+    "title": "Stack Tecnológico",
+    "tabs": {
+      "Frontend": "Frontend",
+      "Backend": "Backend",
+      "Tools": "Herramientas"
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "jobs": [
+      {
+        "role": "Software Engineer",
+        "company": "KnowmadMood",
+        "period": "2021 - Presente",
+        "description": "Diseño e implementación de herramientas web para la gestión integral de presupuestos y logística externa (3PL) con React & Node.",
+        "url": "https://www.knowmadmood.com",
+        "logo": "/logos/km.png"
+      },
+      {
+        "role": "Desarrollador Frontend",
+        "company": "Opinno",
+        "period": "2019 - 2021",
+        "description": "Diseño de SPAs y aplicaciones mobile internacionales con Express, Angular, React y React Native. Colaboración en equipos ágiles y metodologías Scrum.",
+        "url": "https://opinno.com/",
+        "logo": "/logos/opinno.png"
+      },
+      {
+        "role": "Desarrollador Junior",
+        "company": "Xerintel",
+        "period": "2018",
+        "description": "Diseño e implementación de sitios web corporativos utilizando HTML, CSS, JavaScript & PHP. Mantenimiento y actualización de contenido.",
+        "url": "https://www.xerintel.es/",
+        "logo": "/logos/xerintel.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subject": "Asunto",
+    "subjectPlaceholder": "Asunto del mensaje",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje...",
+    "send": "Enviar"
+  },
+  "projects": {
+    "title": "Proyectos personales",
+    "seeProject": "Ver proyecto",
+    "list": [
+      {
+        "title": "Clean Arch Frontend",
+        "description": "Un proyecto para demostrar la implementación de la arquitectura limpia en el Frontend con una aplicación React donde se pueden gestionar eventos simples variando la fuente de datos de HTTP a LocalStorage sin variar la lógica de negocio ni presentacional.",
+        "tech": ["React", "Clean Architecture", "TypeScript"],
+        "link": "https://github.com/Asega1996/clean-arch-poc",
+        "image": "/projects/cleanarchitecture.jpg"
+      },
+      {
+        "title": "MFE Module Federation",
+        "description": "Micro Frontend con Webpack Module Federation. Proyecto que demuestra cómo integrar múltiples microfrontends independientes en una solo host contenedora que permita la comunicación transversal entre MFE.",
+        "tech": ["React", "Vite", "Webpack Module Federation", "Redux"],
+        "link": "https://github.com/Asega1996/mfe-poc",
+        "image": "/projects/mfe.webp"
+      },
+      {
+        "title": "Mutation Testing",
+        "description": "Aplicación para demostrar el uso de Stryker como herramienta de Mutation Testing en un proyecto de TypeScript con Jest y Testing Library.",
+        "tech": ["Jest", "Testing Library", "TypeScript", "Stryker"],
+        "link": "https://github.com/Asega1996/mutation-testing-stryker",
+        "image": "/projects/mutation-testing.jpg"
+      }
+    ]
+  }
+}
