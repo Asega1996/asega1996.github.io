@@ -8,7 +8,7 @@ export const Projects = () => {
     return (
         <section
             id="Projects"
-            className="min-h-screen flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32 bg-gradient-to-bl from-secondary to-secondary/90"
+            className="min-h-dvh flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32 bg-gradient-to-bl from-secondary to-secondary/90"
             role="region"
             aria-label={t("projects.title")}
         >

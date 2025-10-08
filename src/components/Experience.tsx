@@ -10,7 +10,7 @@ export const Experience = () => {
     return (
         <section
             id="Experience"
-            className={`min-h-screen flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32 bg-[#233554]`}
+            className={`min-h-dvh flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32 bg-[#233554]`}
             role="region"
             aria-label={t("experience.title")}
         >

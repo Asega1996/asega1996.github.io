@@ -46,7 +46,7 @@ export const About = () => {
         <section
             id="About"
             ref={ref}
-            className="min-h-screen flex flex-col items-center justify-center bg-[#112240] text-[#ccd6f6] px-6 md:px-16"
+            className="min-h-dvh flex flex-col items-center justify-center bg-[#112240] text-[#ccd6f6] px-6 md:px-16"
             role="region"
             aria-label={titleText}
         >

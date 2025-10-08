@@ -19,7 +19,7 @@ export const Contact = () => {
     return (
         <section
             id="Contact"
-            className="min-h-screen flex flex-col items-center justify-center bg-[#233554] text-[#ccd6f6] px-6 md:px-16 py-12"
+            className="min-h-dvh flex flex-col items-center justify-center bg-[#233554] text-[#ccd6f6] px-6 md:px-16 py-12"
             role="region"
             aria-label={t("contact.ariaLabel")}
         >

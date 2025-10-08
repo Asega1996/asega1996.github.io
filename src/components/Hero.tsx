@@ -12,7 +12,7 @@ export const Hero = () => {
     return (
         <section
             id="Hero"
-            className="min-h-screen flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32"
+            className="min-h-dvh flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32"
             role="region"
             aria-label={t("hero.greeting")}
         >
