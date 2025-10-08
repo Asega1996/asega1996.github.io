@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    html,
+    body {
+        @apply bg-[#112240] text-[#ccd6f6] overflow-x-hidden;
+    }
+}

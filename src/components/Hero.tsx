@@ -12,7 +12,7 @@ export const Hero = () => {
     return (
         <section
             id="Hero"
-            className="min-h-dvh flex flex-col justify-center items-center px-6 md:px-16 pt-24 md:pt-32"
+            className="h-screen flex flex-col justify-center items-center px-6 md:px-16 pt-16 md:pt-32"
             role="region"
             aria-label={t("hero.greeting")}
         >
@@ -63,7 +63,7 @@ export const Hero = () => {
                     <img
                         src="yo.jpeg"
                         alt="Foto de Alejandro"
-                        className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-auto rounded-xl shadow-2xl mx-auto"
+                        className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-auto rounded-xl shadow-2xl"
                     />
                 </div>
             </div>
