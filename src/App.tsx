@@ -22,11 +22,11 @@ export const App = () => {
   return (
     <>
       <Header scrollToSection={scrollToSection} />
-      <Parallax ref={parallax} pages={1}>
+      <Parallax ref={parallax} pages={1} className="no-scrollbar">
         <ParallaxLayer
           offset={0}
           speed={0.3}
-          factor={1}
+          factor={1.3}
           style={{
             background: "linear-gradient(127deg, #0d1e38ff, #172b4dff, #394e72ff)",
           }}

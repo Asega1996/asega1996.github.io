@@ -59,11 +59,11 @@ export const Hero = () => {
                     </div>
                 </div>
 
-                <div className="collapse md:visible flex-1">
+                <div className="hidden md:flex flex-1 justify-center">
                     <img
                         src="yo.jpeg"
                         alt="Foto de Alejandro"
-                        className="invisible md:visible w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-auto rounded-xl shadow-2xl mx-auto"
+                        className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-auto rounded-xl shadow-2xl mx-auto"
                     />
                 </div>
             </div>
