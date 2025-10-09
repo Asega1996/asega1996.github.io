@@ -21,9 +21,9 @@ export const Hero = () => {
                     <h1 className={`text-5xl md:text-7xl font-extrabold ${theme.primaryText} leading-tight`}>
                         {t("hero.greeting")}
                     </h1>
-                    <p className={`text-xl md:text-2xl max-w-lg ${theme.accent}`}>
+                    <h2 className={`text-xl md:text-2xl max-w-lg ${theme.accent}`}>
                         {t("hero.description")}
-                    </p>
+                    </h2>
 
                     <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start">
                         <button
@@ -37,6 +37,7 @@ export const Hero = () => {
                         <a
                             href="/files/32083695Y.pdf"
                             download="CV-Alejandro-Segovia.pdf"
+                            aria-label="Descargar CV en PDF"
                             className={`text-center px-6 py-3 border-2 ${theme.primaryBorder} ${theme.primaryText} font-semibold rounded-lg shadow-lg ${theme.hoverBg} ${theme.hoverText} focus:outline-none focus:ring-2 ${theme.primaryRing} focus:ring-offset-2 transition`}
                         >
                             {t("hero.downloadCV")}
@@ -62,7 +63,7 @@ export const Hero = () => {
                 <div className="hidden md:flex flex-1 justify-center">
                     <img
                         src="yo.jpeg"
-                        alt="Foto de Alejandro"
+                        alt="Alejandro Segovia"
                         className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm h-auto rounded-xl shadow-2xl"
                     />
                 </div>

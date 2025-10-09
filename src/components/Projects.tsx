@@ -26,7 +26,7 @@ export const Projects = () => {
                             {project.image && (
                                 <img
                                     src={project.image}
-                                    alt={project.title}
+                                    alt={`Image cover for ${project.title}`}
                                     className="w-full h-48 object-cover rounded mb-4"
                                 />
                             )}

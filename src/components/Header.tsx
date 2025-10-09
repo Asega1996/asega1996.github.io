@@ -118,6 +118,7 @@ export const Header = ({ scrollToSection }: HeaderProps) => {
                     ))}
 
                     <li>
+                        <label htmlFor="language" className="sr-only">Idioma</label>
                         <select
                             value={lang}
                             onChange={(e) => changeLanguage(e.target.value)}
