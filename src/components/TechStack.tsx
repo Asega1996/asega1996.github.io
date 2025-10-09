@@ -66,7 +66,7 @@ export const TechStack = () => {
                                             href={tech.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-3 bg-[#0a192f] p-4 rounded-lg shadow-md hover:shadow-xl transition transform hover:-translate-y-1"
+                                            className="flex items-center gap-3 bg-[#0a192f] p-4 rounded-lg shadow-md hover:shadow-xl transition transform hover:-translate-y-1 border border-[#64ffda]"
                                         >
                                             <span className="text-4xl">{tech.icon}</span>
                                             <span className="text-lg font-medium text-[#64ffda]">{tech.name}</span>
