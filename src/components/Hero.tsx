@@ -7,7 +7,7 @@ export const Hero = () => {
 
     const githubUrl = "https://github.com/Asega1996";
     const instagramUrl = "https://www.instagram.com/asega96/";
-    const linkedinUrl = "https://www.linkedin.com/in/alejandro-segovia-gallardo-7810aa189/";
+    const linkedinUrl = "https://www.linkedin.com/in/asega1996/";
 
     return (
         <section
