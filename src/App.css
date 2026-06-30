@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Scrollbar styling for carousel */
+.projects-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.projects-carousel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projects-carousel::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.6);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.projects-carousel::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.9);
+}
+
+/* Firefox scrollbar */
+.projects-carousel {
+  scrollbar-color: rgba(139, 92, 246, 0.6) transparent;
+  scrollbar-width: thin;
+}
+
+/* Animación de entrada para el modal */
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Aplicar animación al modal */
+[role="dialog"] > div {
+  animation: modal-in 0.3s ease-out;
+}
